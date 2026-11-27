@@ -4,23 +4,15 @@
 [![rank](https://make.fun/badge/news-image-20261126/miuoas47-gif/news-image-20261126/rank.svg)](https://make.fun/bounty/news-image-20261126/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126)
 [![reward](https://make.fun/badge/news-image-20261126/miuoas47-gif/news-image-20261126/reward.svg)](https://make.fun/bounty/news-image-20261126?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126)
 
-A one-image summary of Thursday 26 November 2026's world news, drawn as a
-newspaper front page: the US proposes new tariffs on 14 trading partners,
-Russia approves a record military budget, North Korea orders a wider
-tactical-nuclear deployment, a fuel-tanker fire near Cairo kills at least 31,
-the Solomon Islands signs a security treaty with Australia, and SpaceX wins
-approval for one million orbital satellites — plus the day's other headlines
-in the footer ticker. `main.py` copies `entry.png` to the output directory.
+One image summing up the world's news of Thursday 26 November 2026: the US proposing tariffs on 14 trading partners, Russia's hypersonic strikes on Kyiv and Ukraine's strikes back, the drone attack in Kuwait that killed two Italians, Pablo Hernández de Cos picked to lead the European Central Bank, a diesel tanker capsizing off Ibiza — with DR Congo's Ebola outbreak, the cheaper HIV prevention jab reaching Africa, and near-record Thanksgiving travel in the footer.
 
 ## Run it
 
 ```sh
-mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
+mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
 
-The program writes `out/entry.png` (1024×1024 PNG, under 1 MiB) and exits 0.
-It uses only the Python standard library, needs no network, and writes the
-same bytes on every run.
+This copies `entry.png` to `out/entry.png`. The program runs with no arguments, no network, and writes byte-identical output on every run.
 
 ---
 
